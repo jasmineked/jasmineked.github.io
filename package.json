@@ -1,20 +1,14 @@
 {
-    "title": "The Big Picture",
+    "title": "JKE portfolio",
     "name": "startbootstrap-the-big-picture",
     "version": "4.2.3",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A full page image background with fixed bottom navigation HTML template built with Bootstrap",
+    "description": "a template that i totally didn't need",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
     ],
-    "homepage": "https://startbootstrap.com/template/the-big-picture",
+    "homepage": "",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-the-big-picture/issues",
         "email": "feedback@startbootstrap.com"
