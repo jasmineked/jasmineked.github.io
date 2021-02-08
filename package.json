@@ -3,15 +3,29 @@
     "name": "jke-portfolio",
     "version": "4.2.3",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch",
-        "build": "node_modules/.bin/build",
-        "deploy": "node_modules/.bin/deploy"
+        "start": "node_modules/.bin/gulp watch"
     },
     "description": "jasmines portfolio",
     "keywords": [],
-    "homepage": "https://github.com/jasmineked/jke-portfolio",
-    "dependencies": {},
-    "devDependencies": {
-        "gulp-gh-pages": "^0.5.4"
+    "homepage": "https://github.com/jasmineked/jke-portfolio"
+},
+        "license": "MIT",
+        "author": "Start Bootstrap",
+        "contributors": [
+            "David Miller (https://davidmiller.io/)"
+        ],
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/jasmineked/jke-portfolio.git"
+        },
+        "dependencies": {
+            "bootstrap": "4.5.3",
+            "jquery": "3.5.1"
+        },
+        "devDependencies": {
+            "browser-sync": "2.26.13",
+            "del": "6.0.0",
+            "gulp": "4.0.2",
+            "merge-stream": "2.0.0"
+        }
     }
-}
