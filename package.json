@@ -1,14 +1,15 @@
 {
-    "title": "JKE portfolio",
+    "title": "Jasmien K. Edwards' Portfolio",
     "name": "jke-portfolio",
     "version": "4.2.3",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "start": "node_modules/.bin/gulp watch"
     },
-    "description": "a template that i totally didn't need",
+    "description": "jasmines portfolio",
     "keywords": [],
     "homepage": "https://github.com/jasmineked/jke-portfolio",
-    "dependencies": {}
+    "dependencies": {},
+    "devDependencies": {
+        "gulp-gh-pages": "^0.5.4"
+    }
 }
