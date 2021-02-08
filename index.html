@@ -7,41 +7,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>The Big Picture - Start Bootstrap Template</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+  <title>Jasmine K. Edwards |</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/the-big-picture.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+      </svg></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="index.html#work">work</a>
           </li>
+          <li class='nav-item'>
+          <a class='nav-link' href='#'>resume</a>
+        </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">contact</a>
           </li>
         </ul>
       </div>
@@ -50,16 +51,78 @@
 
   <!-- Page Content -->
   <section>
-    <div class="container">
+    <div class="container" id='intro'>
       <div class="row">
-        <div class="col-lg-6">
-          <h1 class="mt-5">The Big Picture</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
+        <div class="col-lg-10">
+          <h1 class="mt-5" id='intro-txt'>Jasmine K. Edwards—<br>
+            Software Engineer currently based in Brooklyn, NY</h1>
+          <p></p>
         </div>
       </div>
     </div>
   </section>
+<!-- about me section -->
+<section class='intro text section-padding' id='about'>
+<div class='container'>
+<!-- welcome text -->
+<div class='row'>
+  <div class='col-md-8 col-md-offset-2 wp1'>
+    <h1 class='about-greet'>Hello, World!</h1>
+    <p>I am a data-driven developer whom relies on compassion, logic & analysis to make sense of the world around me. 
+      For as long as I could remember, I've always had a special relationship with technology. After some self-teaching & successfully completing General Assembly's Software Engineering Immersive, my perception of technology had totally shifted―programming revealed all the creativity and nuance that is required to develop our digital reality. There, we can create almost anything we desire; the only constraints lie in syntax. <strike>Bless Al Gore's internet.</strike>
+      In previous roles, I was responsible for bringing order to chaos. I took on many challenges as though they were puzzles that needed to be solved.</p>
+      <p>I love programming because it allows me to embrace the most authentic version of myself―the self who is curious, thinking critically, learning, unlearning, researching, discovering, developing, & innovating. I'm searching for a team that also values resourcefulness, intellectual curiosity and collaborating with individuals who are eager to share their knowledge with others.</p>
+  </div>
+  <div class='col-md-4 col-md-offset-2 wp1'>
+    <img class='jas' src='../jas.jpg' alt='jasmine k. edwards irl'>
+</div>
+</div>
+</div>
+</section>
 
+<!-- this contains all the projects -->
+<div class='container-fluid' id='work'>
+<h1 class='project-header'>Work</h1>
+<!-- first project -->
+  <div class='row color-bg'>
+    <div class= 'col-md-6 nopadding features-intro-img'>
+      <div class='project-image' style='background-image:url(../ess.png)'></div>
+    </div>
+      <div class='col-md-6 project-text'>
+        <h4>essence.</h4>
+        <p>orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era</p>
+        <br>
+        <a href='#' class='weight-outline-btn'>deployed link</a><br>
+        <a href='#' class='weight-outline-btn'>code</a>
+      </div>
+    </div>
+<!-- second project -->
+    <div class='row'>
+      <div class='col-md-6 project-text'>
+        <h4>postd</h4>
+        <p>orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era</p>
+        <br>
+        <a href='#' class='weight-outline-btn'>deployed link</a><br>
+        <a href='#' class='weight-outline-btn'>code</a>
+      </div>
+      <div class= 'col-md-6 nopadding features-intro-img'>
+        <div class='project-image' style='background-image:url(../ess.png)'></div>
+      </div>
+    </div>
+<!-- third project -->
+      <div class='row color-bg'>
+        <div class= 'col-md-6 nopadding features-intro-img'>
+          <div class='project-image' style='background-image:url(../ess.png)'></div>
+        </div>
+          <div class='col-md-6 project-text'>
+            <h4>essence.</h4>
+            <p>orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era</p>
+            <br>
+            <a href='#' class='weight-outline-btn'>deployed link</a><br>
+            <a href='#' class='weight-outline-btn'>code</a>
+          </div>
+        </div>
+      </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
