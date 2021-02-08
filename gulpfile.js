@@ -65,6 +65,7 @@ const build = gulp.series(vendor);
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
 // Export tasks
+exports.deploy = build;
 exports.clean = clean;
 exports.vendor = vendor;
 exports.build = build;

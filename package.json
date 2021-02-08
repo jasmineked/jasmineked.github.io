@@ -1,9 +1,11 @@
 {
-    "title": "Jasmien K. Edwards' Portfolio",
+    "title": "Jasmine K. Edwards' Portfolio",
     "name": "jke-portfolio",
     "version": "4.2.3",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "build": "node_modules/.bin/build",
+        "deploy": "node_modules/.bin/deploy"
     },
     "description": "jasmines portfolio",
     "keywords": [],
