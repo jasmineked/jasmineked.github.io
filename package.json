@@ -1,6 +1,6 @@
 {
     "title": "JKE portfolio",
-    "name": "startbootstrap-the-big-picture",
+    "name": "jke-portfolio",
     "version": "4.2.3",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
@@ -8,28 +8,5 @@
     "description": "a template that i totally didn't need",
     "keywords": [
     ],
-    "homepage": "",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-the-big-picture/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-the-big-picture.git"
-    },
-    "dependencies": {
-        "bootstrap": "4.5.3",
-        "jquery": "3.5.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.13",
-        "del": "6.0.0",
-        "gulp": "4.0.2",
-        "merge-stream": "2.0.0"
+    "homepage": "https://github.com/jasmineked/jke-portfolio"
     }
-}
