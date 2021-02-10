@@ -76,7 +76,7 @@ body {
   padding-top: 10%;
   padding-right: 10%;
   display: flex;
-  color:seagreen;
+  color:rgb(215, 236, 157);
 }
 #contact {
   display: flex;
@@ -86,14 +86,14 @@ body {
 }
 .contact .form-control {
   margin-bottom: 20px;
-  border: 1px solid #b6c78e;
+  border: 1px solid #b78ec7;
   height: 45px;
 }
 .contact textarea.form-control {
   height: 310px;
 }
 .btn-send{
-  background:rgb(165, 30, 165);
+  background:hsl(284, 66%, 75%);
   color: white;
   border-radius: 0;
   float: right;
