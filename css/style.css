@@ -116,6 +116,7 @@ ul.social-buttons {
 }
 #socialbuttons {
   justify-content: center;
+  margin: auto;
 }
 ul.social-buttons li {
 	display:inline-block;
