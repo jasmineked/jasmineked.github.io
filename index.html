@@ -143,23 +143,22 @@
         <div class='container' id='contact'>
           <h1 class='contact-header'>contact me!</h1>
             <div class='col-md-8 contact'>
-              <form role='form'>
+                <form action='webform.php' method='POST' class='form'>
                 <!-- name -->
                 <div class='row'>
                   <div class='col-md-6'>
-                    <!-- email -->
                     <div class='form-group'>
-                      <input class='form-control' type='text' placeholder='Your name'>
+                      <input class='form-control' type='text' id='name' name='name' tabindex='1' required placeholder='Your name'>
                     </div>
                   </div>
                   <div class='col-md-6'>
                     <div class='form-group'>
-                      <input class='form-control' type='email' placeholder='Your e-mail address'>
+                      <input class='form-control' type='email' id='email' name='email' tabindex='2' required placeholder='Your e-mail address'>
                     </div>
                   </div>
                 </div>
                 <div class='form-group'>
-                  <textarea class='form-control' placeholder='Write your message here...' style='height:232px;'></textarea>
+                  <textarea class='form-control' id='message' name='message' tabindex='3' required placeholder='Write your message here...' style='height:232px;'></textarea>
                 </div>
                 <button class='btn btn-send' type='submit'>send message</button>
               </form>
