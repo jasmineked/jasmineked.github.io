@@ -1,3 +1,14 @@
+<?php
+
+if($_POST["message"]) {
+
+mail("jked630@icloud.com", "Here is the subject line",
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -143,7 +154,7 @@
         <div class='container' id='contact'>
           <h1 class='contact-header'>contact me!</h1>
             <div class='col-md-8 contact'>
-                <form id='contact-form' action='mailto:jked630@gmail.com' method='POST' enctype='multipart/form-data' name='emailform' role='form'>
+                <form id='contact-form' action='contact.php' method='POST' name='emailform' role='form'>
                 <!-- name -->
                 <div class='row'>
                   <div class='col-md-6'>
