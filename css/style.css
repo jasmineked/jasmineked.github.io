@@ -32,7 +32,9 @@ body {
   max-width: 100%;
   height: auto;
 }
-
+#work {
+  padding-bottom: 10%;
+}
 .project-image {
   height: 400px;
   -webkit-background-size:cover;
@@ -72,9 +74,10 @@ body {
 .project-text {
   color: #928774;
 }
-.resume {
+#resumelink {
   color: #a1b4d8;
-  padding-top: 10%;
+  padding-top: 20%;
+  text-align: center;
 }
 .contact-header {
   padding-top: 10%;
