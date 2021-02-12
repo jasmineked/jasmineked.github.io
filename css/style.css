@@ -74,59 +74,19 @@ body {
 .project-text {
   color: #928774;
 }
-#resumelink {
+#resume-header {
   color: #a1b4d8;
-  padding-top: 20%;
+  /* padding-top: 10%; */
 }
-  /* #resumelink:hover {
-    background:  #c7618b;
-    color: #191919;
-  } */
+ #resume-header:hover {
+  background: #42badf;
+  color: #ffffff;
+  } 
 #resume {
   display: flex;
   justify-content: center;
 }
-.ml5 {
-  position: relative;
-  font-weight: 300;
-  font-size: 2.5rem;
-  color: #a1b4d8;
-}
-
-.ml5 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-  line-height: 1em;
-}
-
-.ml5 .line {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 3px;
-  width: 100%;
-  background-color: #928774;
-  transform-origin: 0.5 0;
-}
-
-.ml5 .ampersand {
-  font-family: Baskerville, serif;
-  font-style: italic;
-  font-weight: 400;
-  width: 1em;
-  margin-right: -0.1em;
-  margin-left: -0.1em;
-}
-
-.ml5 .letters {
-  display: inline-block;
-  opacity: 0;
-}
+/*  */
 .contact-header {
   padding-top: 10%;
   padding-right: 10%;
