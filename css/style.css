@@ -11,6 +11,9 @@ body {
 .nav-link {
   color: #c7bcc4;
 }
+.nav-link:hover {
+  background:
+}
 
  #intro-txt {
  color: #a1b4d8;
@@ -23,7 +26,7 @@ body {
   font-size: 14px;
   font-weight: 100;
   line-height: 28px;
-  word-spacing: 1px;
+  /* word-spacing: 1px; */
   box-sizing: border-box;
   padding: 15% 5% 5% 5%;
 }
