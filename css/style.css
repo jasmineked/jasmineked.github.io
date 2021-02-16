@@ -26,7 +26,7 @@ body {
   font-size: 14px;
   font-weight: 100;
   line-height: 28px;
-  /* word-spacing: 1px; */
+  word-spacing: 1px;
   box-sizing: border-box;
   padding: 15% 5% 5% 5%;
 }
@@ -37,6 +37,12 @@ body {
 }
 #work {
   padding-bottom: 10%;
+  word-spacing: 1px;
+
+}
+#project-details {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 .project-image {
   height: 400px;
@@ -60,14 +66,34 @@ body {
   padding-bottom: 5%;
 }
 
-.color-bg .weight-outline-btn {
+.color-bg .todo-weight-outline-btn {
   color: rgb(165, 30, 165);
   border-color:seagreen;
 }
 
-.color-bg .weight-outline-btn:hover {
-  background:  #a1b4d8;
+.color-bg .todo-weight-outline-btn:hover {
+  background:  #79a4f3;
   color: #191919;
+}
+
+.color-bg .posted-weight-outline-btn {
+  color: rgb(51, 99, 202);
+  border-color:seagreen;
+}
+.color-bg .posted-weight-outline-btn:hover {
+  background:  #d4d8a1;
+  color: #a57e13;
+}
+
+.color-bg .budget-weight-outline-btn {
+  color: rgb(35, 165, 30);
+  border-color:rgb(119, 141, 129);
+
+}
+
+.color-bg .budget-weight-outline-btn:hover {
+  background:  #9c5661;
+  color: #ffffff;
 }
 
 .project-text {
@@ -111,10 +137,13 @@ body {
   height: 310px;
 }
 .btn-send{
-  background:hsl(284, 66%, 75%);
-  color: white;
+  background: #928774;
+  color: #191919;
   border-radius: 0;
   float: right;
+}
+.btn-send:hover {
+  background:rgb(215, 236, 157);
 }
 .social-btn {
   box-sizing: border-box;
@@ -127,6 +156,9 @@ body {
   line-height: 40px;
   text-align: center;
   display: flex;
+}
+.social-btn:hover {
+  color:rgb(111, 202, 179);
 }
 ul.social-buttons {
 	list-style:none;
