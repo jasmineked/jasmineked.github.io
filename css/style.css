@@ -60,7 +60,13 @@ body {
 }
 
 .project-header {
-  color: #b6c78e;
+  color: #9dbeb7;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.project-caption {
+  color: #3e326e;
   text-align: right;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -120,11 +126,11 @@ body {
   padding-top: 10%;
   padding-right: 10%;
   display: flex;
-  color:rgb(215, 236, 157);
+  color:rgb(235, 214, 148);
 }
 #contact {
   display: flex;
-  padding-top: 10%;
+  /* padding-top: 1%; */
   margin: auto;
   justify-content: flex-end;
 }
